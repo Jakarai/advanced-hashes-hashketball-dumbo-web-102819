@@ -179,6 +179,9 @@ end
 def player_stats(players_name)
   new hash = {}
   game_hash.each do |place, team|
+    team.each do |attributes, data|
+      if attributes = :player
+        data.each do |player|
 
 
 
