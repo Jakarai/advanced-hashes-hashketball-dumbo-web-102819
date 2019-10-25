@@ -129,12 +129,14 @@ def num_points_scored(players_name)
           if player[:player_name] == players_name
             return player[:points]
           end
-
-        
         end
       end
     end
   end
+end
+
+def shoe_size
+  
 end
 
 
