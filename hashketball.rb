@@ -169,7 +169,8 @@ def player_numbers(team_name)
         if attributes == :player 
           data.each do |player|
             nums.push(player[:number])
-       
+          end  
+       end 
       end
     end
   end
