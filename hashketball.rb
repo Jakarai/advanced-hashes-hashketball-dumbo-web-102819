@@ -167,7 +167,9 @@ def player_numbers
     if team[:team_name] == team_name
       team.each do |attributes, data|
         if attributes == :player 
-          
+          data.each do |player|
+            nums << player[:number]
+          end 
         end
       end
     end
