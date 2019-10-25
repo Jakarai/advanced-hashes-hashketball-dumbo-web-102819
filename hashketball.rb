@@ -1,6 +1,6 @@
 # Write your code here!
 
-def num
+def num_points
 
 
 
