@@ -177,17 +177,18 @@ def player_numbers(team_name)
   nums
 end
 def player_stats(players_name)
-  new hash = {}
+  new_hash = {}
   game_hash.each do |place, team|
     team.each do |attributes, data|
       if attributes = :player
         data.each do |player|
           if player[:player_name] == players_name
+            new_hash = player.
+          end
         end
       end
     end
   end
-end
 end
   
 
